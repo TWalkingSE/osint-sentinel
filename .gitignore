@@ -1,0 +1,53 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python / tooling
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.envrc
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.pub
+
+# Investigation outputs / evidence
+artifacts/
+captures/
+downloads/
+evidence/
+evidencias/
+exports/
+out/
+temp/
+tmp/
+*.har
+*.pcap
+*.pcapng
+*.zip
+*.7z
+*.rar
+
+# Logs
+*.log
+logs/
+
+# OSINT operational leftovers
+hunchly-export/
+singlefile-captures/

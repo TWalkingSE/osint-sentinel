@@ -1,0 +1,11 @@
+ID,Tipo,Valor,ValorDefanged,PrimeiraObservacao,UltimaObservacao,Fonte,Confianca,Ocorrencias,Notas
+1,IPv4,203.0.113.42,203.0.113[.]42,2026-04-10T00:00:00Z,2026-04-15T00:00:00Z,URLScan.io,ALTO,3,"Bulletproof hosting AS12345"
+2,Dominio,alvo-banco.com,alvo-banco[.]com,2026-04-10T14:22:03Z,2026-04-15T00:00:00Z,WHOIS Registro.br,ALTO,5,"Derrubado 2026-04-15"
+3,URL,https://alvo-banco.com/login,hxxps://alvo-banco[.]com/login,2026-04-11T03:17:42Z,2026-04-14T18:05:11Z,VirusTotal,ALTO,2,"Pagina de phishing"
+4,Email,golpista@protonmail.com,golpista[at]protonmail[.]com,2026-04-10T14:22:03Z,2026-04-10T14:22:03Z,WHOIS domain registrant,ALTO,1,"Registrant do dominio alvo"
+5,SHA256,0000000000000000000000000000000000000000000000000000000000000000,,2026-04-19T14:22:03Z,2026-04-19T14:22:03Z,VirusTotal,ALTO,1,"Substituir pelo hash real do HTML preservado"
+6,WalletBTC,bc1q0000000000000000000000000000000000,,2026-04-14T18:05:14Z,2026-04-14T18:06:00Z,Blockchain.com,ALTO,1,"Destino primeiro PIX convertido em BTC — substituir placeholder"
+7,ASN,AS12345,,2026-04-10T00:00:00Z,,BGP.he.net,ALTO,1,"AS do IP 203.0.113.42"
+8,CNPJ,00.000.000/0000-00,,,,Pendente,BAIXO,0,"Conta destino do PIX — a identificar via ofício Bacen"
+9,CPF,000.000.000-00,,,,Pendente,BAIXO,0,"Titular da conta destino — pos-ofício"
+10,Placa,AAA0A00,,,,Pendente,BAIXO,0,"Se identificado veiculo usado em saque em caixa eletronico"

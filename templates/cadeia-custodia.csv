@@ -1,0 +1,6 @@
+ID,Arquivo,Origem,DataHoraUTC,Metodo,SHA256,Operador,Matricula,Local,Observacao
+1,site_fraudulento.html,https://alvo.com (via SingleFile),2026-04-19T14:22:03Z,SingleFile + sha256sum,PREENCHER,NOME_OPERADOR,MATRICULA,VM OSINT-01,Pagina de login falso
+2,screenshot-01.png,Navegador Firefox hardened,2026-04-19T14:22:30Z,Captura manual + sha256sum,PREENCHER,NOME_OPERADOR,MATRICULA,VM OSINT-01,Tela de pagamento
+3,,,,,,,,,
+4,,,,,,,,,
+5,,,,,,,,,
